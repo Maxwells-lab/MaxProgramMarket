@@ -1,0 +1,114 @@
+
+body{
+    background-image: url(gnome.jpg);
+    background-blend-mode: color-burn;
+    enable-background: accumulate;
+
+    
+    
+}
+.login{
+    text-align: center;
+        font-weight: bolder;
+        padding-left: 50%;
+        color: darkorange;
+        font-size: x-large; 
+}
+
+#forms {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: nowrap;
+    margin-left: 40%;
+    text-align: center;
+    padding: auto;
+
+}
+
+.container0 {
+    border-left: 40px;
+    margin-right: 10%;
+    border-right: 20px;
+}
+
+.container01 {
+    margin-left: -20px;
+    margin-right: 10%;
+    border-right: 20px;
+}
+
+
+#formsx {
+    display: grid;
+    grid-template-columns: 50px;
+    margin: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.containerEmail {}
+
+#email {
+    padding: 10px;
+    border-color: crimson;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-right: 274px;
+}
+
+#mypassword {
+    padding: 10px;
+    border-color: crimson;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-right: 274px;
+
+}
+
+#signUp {
+
+    display: grid;
+    grid-template-columns: -50%;
+    margin-left: 55%;
+    padding: -10%;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 12px;
+    color: goldenrod;
+    font-size: larger;
+}
+
+.signme {
+    border: 30px;
+}
+
+#myfoot {
+    display: grid;
+    grid-template-columns: 30%;
+    margin-left: -150px;
+    text-align: center;
+    color: cornflowerblue;
+    padding-top: 20px;
+
+}
+
+#state {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    margin-left: 40%;
+    text-align: center;
+    
+}
+
+.container1 {
+    margin-right: 10%;
+    
+}
+
+.container2 {
+    font-style: italic;
+    position: relative;
+    top: -12px;
+
+}

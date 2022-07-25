@@ -1,0 +1,135 @@
+:root{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body,html{
+    background-image: url(back.jpg);
+    backface-visibility: hidden;
+    background-blend-mode:hue;
+    background-clip: fixed;
+}
+
+#missions{
+    font-style: italic;
+    position: relative;
+    right: -40%;
+    color:darkorange;
+}
+.join{
+    text-align: center;
+    font-weight: bolder;
+    padding-left: 50%;
+    color: darkorange;
+    font-size: x-large;
+
+}
+#state{ 
+    display: grid;
+    grid-template-columns: 30% 30%;
+    margin-left: 40%;
+    text-align: center;
+    color:gold;
+}
+
+.container1{
+    border: 2px solid goldenrod;
+    border-style:double;
+    margin-right: 10%;
+    border-radius: 12px;
+}
+.container2{    
+    border:2px solid goldenrod;
+    border-style: double;
+    border-radius: 12px;
+}
+#hire1, #hire2{
+    font-weight: bolder;
+}
+#forms{
+        display: flex;
+        flex-direction:row-reverse;
+        flex-flow: nowrap;
+        margin-left:40%;
+        text-align: center;
+        padding:auto;
+
+}
+.container0{
+    border-left: 40px;
+    margin-right: 10%;
+    border-right: 20px;
+}
+.container01{
+        margin-left: -20px;
+        margin-right: 10%;
+        border-right: 20px;
+}
+#fname{
+    
+    padding: 10px;
+    border-color: crimson;
+    border-radius: 15px;
+
+
+}
+#lname{
+    padding: 10px;
+    border-color: crimson;
+    border-radius: 15px;
+
+}
+
+#formsx{
+    display: grid;
+    grid-template-columns: 50px;
+    margin:40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.containerEmail{
+    
+    
+}
+#email{
+    padding: 10px;
+        border-color: crimson;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        padding-right: 274px;
+}
+#mypassword{
+    padding: 10px;
+        border-color: crimson;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        padding-right: 274px;
+
+}
+#signUp{
+
+    display: grid;
+        grid-template-columns:-50%;
+        margin-left: 55%;
+        padding:-10%;
+        text-align: center;
+       font-weight:bolder;
+       border-radius: 12px;
+       color:goldenrod;
+       font-size: larger;
+
+       
+}
+.signme{
+    border: 30px;
+
+    
+}
+#myfoot{
+    display: grid;
+        grid-template-columns: 30%;
+        margin-left: 50%;
+        text-align: center;
+        color: cornflowerblue;
+        padding-top: 20px;
+
+}
